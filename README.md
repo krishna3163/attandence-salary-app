@@ -1,7 +1,7 @@
 # 🚛 Transport Corporation: Workforce & Payroll Engine
 
 <div align="center">
-  <img src="https://img.shields.io/badge/Version-2.0.0-blue?style=for-the-badge" alt="Version">
+  <img src="https://img.shields.io/badge/Version-2.5.0-blue?style=for-the-badge" alt="Version">
   <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React">
   <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" alt="Node.js">
   <img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white" alt="MongoDB">
@@ -22,11 +22,15 @@ A comprehensive, full-stack ERP solution tailored for transport companies to man
 - **Precision Attendance**: A dual-view logistics board (Table/Card) to mark presence, absence, and exact working hours.
 - **Advance Management**: One-click cash advance issuance with safe-guards against over-drafting and auto-deduction logic.
 - **Verified Payroll**: Generate industrial-grade salary reports with auto-calculation of overtime, advance deductions, and net pay.
+- **Attendance Trajectory**: A monthly calendar toggle to track individual employee performance, tasks done, and attendance patterns at a glance.
+- **Multi-Tenant Architecture (SaaS)**: Built-in `orgId` isolation allowing multiple organizations to run independent operations on the same infrastructure.
 - **Export Control**: Download monthly sync reports in **PDF** (Professional Slips) or **CSV** (Data Analysis).
 
 ### 👥 Personnel Experience
 - **Personal Terminal**: Employees can log in to view their own attendance history, pending advances, and earnings.
 - **Internal Sync**: A dedicated messaging hub with real-time polling to communicate with management.
+- **Real-Time Operations**: Firebase-backed live attendance board and task updates for immediate visibility.
+- **Advanced RBAC**: Granular dashboard access for **CEO, Manager, HR, and Accountant** roles.
 - **Self Registration**: Mobile-responsive onboarding flow for new fleet members.
 
 ### 🎨 State-of-the-Art UI/UX
